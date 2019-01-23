@@ -1,0 +1,9 @@
+targets = [ "//:websocketpp" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-asio"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+version = "branch=master"

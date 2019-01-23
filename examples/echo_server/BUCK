@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'echo_server',
+  header_namespace = '',
+  headers = glob([
+    '*.hpp',
+  ]),
+  srcs = glob([
+    '*.cpp',
+  ]),
+  deps = [
+    '//:websocketpp',
+  ],
+)

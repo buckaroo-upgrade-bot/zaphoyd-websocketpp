@@ -92,3 +92,10 @@ Makefile
 bin
 
 Testing/Temporary/CTestCostData.txt
+
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl
